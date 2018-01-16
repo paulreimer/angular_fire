@@ -25,7 +25,7 @@ The current stable release of `angular_fire` works best with the following:
 ```yaml
 dependencies:
   angular: ^4.0.0
-  angular_fire: ^0.1.0
+  angular_fire: ^0.3.0
   firebase: ^3.1.0
 ```
 

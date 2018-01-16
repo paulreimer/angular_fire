@@ -1,7 +1,7 @@
 name: angular_fire
 description: >
   Unofficial library for AngularDart and Firebase.
-version: 0.2.1
+version: 0.3.0
 authors:
   - Matan Lurey <matanl@google.com>
 homepage: https://github.com/matanlurey/angular_fire
@@ -20,12 +20,6 @@ dev_dependencies:
   test: ^0.12.20+8
 
 transformers:
-  # Ahead-of-time compilation (required in AngularDart ^4.0.0).
-  - angular/transform/codegen:
-      # No longer required in ^4.0.0.
-      resolved_identifiers:
-          App: package:firebase/firebase.dart
-
   # These transformers are only invoked when using this package itself.
   - angular/transform/reflection_remover:
       $include: ["test/google_sign_in_test.dart", "web/main.dart"]
