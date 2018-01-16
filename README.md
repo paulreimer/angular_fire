@@ -24,7 +24,7 @@ The current stable release of `angular_fire` works best with the following:
 
 ```yaml
 dependencies:
-  angular2: ^3.1.0
+  angular: ^4.0.0
   angular_fire: ^0.1.0
   firebase: ^3.1.0
 ```
@@ -48,8 +48,8 @@ To get started, you need to, at minimum, include the Firebase SDK:
 A high-level authentication service. First setup for dependency injection:
 
 ```dart
-import 'package:angular2/angular2.dart';
-import 'package:angular2/platform/browser.dart';
+import 'package:angular/angular.dart';
+import 'package:angular/platform/browser.dart';
 import 'package:angular_fire/angular_fire.dart';
 import 'package:firebase/firebase.dart' as sdk;
 
@@ -84,7 +84,7 @@ Displays a rendered sign in box for Google authentication that follows the
 <br>
 
 ```dart
-import 'package:angular2/angular2.dart';
+import 'package:angular/angular.dart';
 import 'package:angular_fire/angular_fire.dart';
 
 @Component(

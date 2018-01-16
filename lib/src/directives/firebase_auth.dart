@@ -4,15 +4,15 @@
 
 import 'dart:async';
 
-import 'package:angular2/angular2.dart';
+import 'package:angular/angular.dart';
 import 'package:firebase/firebase.dart' as sdk;
 
 /// An injectable service representing authentication with Firebase.
 ///
 /// The default implementation requires providing a [sdk.App] object:
 /// ```dart
-/// import 'package:angular2/angular2.dart';
-/// import 'package:angular2/platform/browser.dart';
+/// import 'package:angular/angular.dart';
+/// import 'package:angular/platform/browser.dart';
 /// import 'package:firebase/firebase.dart' as sdk;
 ///
 /// bootstrap(AngularFireExample, [

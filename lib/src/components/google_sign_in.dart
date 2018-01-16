@@ -5,7 +5,7 @@
 import 'dart:async';
 import 'dart:html';
 
-import 'package:angular2/angular2.dart';
+import 'package:angular/angular.dart';
 import 'package:meta/meta.dart';
 
 /// An [OpaqueToken] that may provided to override the default image path.
@@ -13,8 +13,8 @@ import 'package:meta/meta.dart';
 /// ## Example
 ///
 /// ```dart
-/// import 'package:angular2/angular2.dart';
-/// import 'package:angular2/platform/browser.dart';
+/// import 'package:angular/angular.dart';
+/// import 'package:angular/platform/browser.dart';
 /// import 'package:angular_fire/angular_fire.dart';
 ///
 /// main() {
@@ -37,8 +37,8 @@ const googleSignInAssetPath = const OpaqueToken('googleSignInAssetPath');
 /// ## Example
 ///
 /// ```dart
-/// import 'package:angular2/angular2.dart';
-/// import 'package:angular2/platform/browser.dart';
+/// import 'package:angular/angular.dart';
+/// import 'package:angular/platform/browser.dart';
 /// import 'package:angular_fire/angular_fire.dart';
 ///
 /// main() {
